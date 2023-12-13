@@ -1,0 +1,108 @@
+.title {
+
+    font-size: 20px;
+    color: blueviolet;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+
+}
+.header1{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(216, 208, 255);
+}
+
+nav {
+    
+    display: flex;
+    align-items:center;
+    position: fixed;
+    flex-direction: row;
+    
+    font-size: 2rem;
+    
+}
+
+
+
+ul{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+li {
+    padding : 0.5rem;
+    border-radius: 25px;
+    border: 2px solid rgb(111, 85, 136);
+    background-color:rgb(204, 204, 255);
+}
+.logo1 {
+    width:9rem;
+    height: 9rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(152, 125, 196);
+}
+.logof {
+
+    width: 2rem;
+    height: 2rem;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rem;
+    padding: 1rem;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/abundant-collection-antique-books-wooden-shelves-generated-by-ai_188544-29660.jpg?w=2000");
+}
+
+.couverture
+ {
+    width: 10rem;
+    height:15rem;
+}
+
+.titreHeader {
+    text-align: center;
+    font-size: 8rem;
+    background-color: rgb(204, 204, 255);
+}
+img {
+    grid-area: img;
+}
+
+h3 {
+    grid-area: h3;
+
+}
+
+p{
+    grid-area: p;
+}
+.livres {
+    display: grid;
+    width: 20%;
+    grid-template-areas: "img h3"
+                            "img p";
+    background-color:rgb(109, 59, 35);
+            
+    
+}
+
+.annonces {
+    font-size: 2rem;
+    color:rgb(247, 64, 64);
+}

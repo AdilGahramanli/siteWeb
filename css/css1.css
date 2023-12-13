@@ -1,0 +1,193 @@
+.header1 {
+    background-image: url(https://img.freepik.com/photos-premium/portail-magique-fantastique-portail-dans-foret-elfique-vers-autre-monde-art-numerique-illustration_717906-143.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25rem;
+    margin: auto;
+    background-color:rgb(202, 255, 244);
+    border: 0.2rem solid grey;
+}
+
+.header1>img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.header1>h1 {
+    display: flex;
+    align-items: center;
+}
+
+.imageItem {
+    width : 10rem;
+    height: auto;
+}
+
+.item {
+    border: 0.3rem solid greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testzone {
+    display: grid;
+    grid-template-areas: "a b c";
+    height : 100%;
+    /* grid-template-rows : 1fr 1fr 1fr; */
+    gap: 1rem;
+    border: 2px solid rgb(18, 19, 24);
+    /* background-color: rgb(209, 210, 216); */
+}
+
+.testzone > while {
+    
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin : 1rem;
+    grid-area: a;
+    border: 1rem solid rgb(215, 228, 230);
+
+
+}
+
+.testzone > for {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    grid-area: b;
+    margin : 1rem;
+    border: 1rem solid rgb(215, 228, 230);
+}
+
+.testzone > foreach {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    grid-area: c;
+    margin : 1rem;
+    border: 1rem solid rgb(215, 228, 230);
+}
+
+.item1 > img {
+    width: 7rem;
+}
+
+.item2 > img {
+    width: 7rem;
+}
+
+.item3 > img {
+    width: 7rem;
+}
+
+input {
+    width: 3rem;
+    height: 2rem;
+    color: rgb(101, 177, 101);
+    font-size: 1.5rem;
+}
+
+.container0 {
+    display: grid;
+    grid-template-areas: "1fr 1fr 1fr";
+    margin: 2rem;
+    gap : 5rem;
+
+}
+
+.item1, .item2, .item3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    grid-area: "item";
+   border: 1px solid blue;
+
+} 
+
+.logof {
+    width: 2rem;
+    height : auto;
+}
+
+.footer {
+    width: 100%;
+    height: 25rem;
+    background-image: url(https://img.freepik.com/photos-premium/portail-magique-fantastique-portail-dans-foret-elfique-vers-autre-monde-art-numerique-illustration_717906-143.jpg);
+}
+
+button {
+    width : 15rem;
+    height: 3rem;
+    background-color: rgb(160, 245, 185);
+    border-radius: 11px;
+}
+
+.form_panier {
+    width : 50%;
+    height:auto;
+    margin: 1rem;
+    padding: 2rem;
+    border: 0.3rem solid green;
+    display: grid;
+    grid-template-areas: "a a a a"
+                           " . . . c"
+                           ". . . d"
+                           " kg T . e"
+                           "f f f g"
+                           ". . . h"
+                           ". . . i" ;
+    gap: 1rem;
+}
+
+.form_totalHT {
+    grid-area: c;
+}
+
+.form_panier > * {
+    background-color: rgb(175, 226, 192);
+}
+
+.form_TVA {
+    grid-area: d;
+}
+
+.form_totalTTC {
+    grid-area: e;
+}
+
+.transporteur {
+    grid-area: f;
+}
+
+.validation{
+    grid-area: g;
+}
+
+.transport_price {
+    grid-area: h;
+}
+
+.transportTTC {
+    grid-area: i;
+}
+
+.weight {
+    grid-area: kg;
+}
+
+.transporteurchoice {
+    grid-area: T;
+}
+
+.table_names {
+    display:flex;
+    flex-direction: row;
+}
